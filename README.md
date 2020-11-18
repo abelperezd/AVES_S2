@@ -36,3 +36,7 @@ Finalmente, en este script encontramos un menú también con 2 opciones, que nos
 Los resultados obtenidos tras realizar ambos son los siguientes:
 
 <img src="https://drive.google.com/uc?export=view&id=1jkX0bPJXtiyzQoz3Rj66pah-l6yBO60c" width="300"> <img src="https://drive.google.com/uc?export=view&id=1EYU_zEek_BNze-K5JNpvO7ztgl162_za" width="300">
+
+
+
+

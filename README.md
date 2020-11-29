@@ -6,7 +6,7 @@ Para poder utilizar este script necesitamos añadir dentro de la carpeta del pro
 Tenemos 5 archivos .py y en cada de uno de ellos encontramos una explicación detallada sobre cómo utilizarlos:
 
 ##  **main.py**
-Este es el script base del proyecto. En el encontramos un menú que nos permite seleccionar qué transformación deseamos realizarle al vídeo. 
+Este es el script base del proyecto. En él encontramos un menú que nos permite seleccionar qué transformación deseamos realizarle al vídeo. 
 Dado que el vídeo original es demasiado extenso y las operaciones tardarían demasiado, nada más ejecutar el script extraemos 10 segundos de este vídeo, con los que trabajaremos.
 
 <img src="https://drive.google.com/uc?export=view&id=1ltl0h7RTRVFn0AwSgNZF75YR6bDsbzP-" width="300">

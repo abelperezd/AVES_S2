@@ -24,7 +24,7 @@ Obtenemos el vídeo de 10 segundos con un histograma de formato yuv en tiempo re
 <img src="https://drive.google.com/uc?export=view&id=1Eu_u01Tzf4UbhwK6pykEe7CNDaO9JTm6" width="500">
 
 ##  **ex3.py**
-Al ejecutar este script se nos abre un menú con el que podemos elegir la resolución de salida del vídeo. Para el caso de 160x120, por ejemplo, obtenemos: 
+Al ejecutar este script se nos abre un menú con el que podemos elegir la resolución de salida del vídeo. El archivo de salida puede ser que no se corresponda con la resolución seleccionada ya que he priorizado conservar el aspecto, tomando como referencia la altura del vídeo. Para el caso de 160x120, por ejemplo, obtenemos: 
 
 <img src="https://drive.google.com/uc?export=view&id=1YIpqjLvgLu6CtihJ3ITkBOWO_QLZW5cW" width="500">
 

@@ -9,7 +9,7 @@ We have 5 .py files and in each of them we find a detailed explanation on how to
 This is the base script of the project. In it we find a menu that allows us to select what transformation we want to do to the video. 
 Since the original one is too long and the operations would take too long, just after running the script we extract 10 seconds of this video, with which we will work.
 
-<img src="https://drive.google.com/uc?export=view&id=1ltl0h7RTRVFn0AwSgNZF75YR6bDsbzP-" width="300">
+<img src="https://drive.google.com/uc?export=view&id=1ltl0h7RTRVFn0AwSgNZF75YR6bDsbzP-" width="500">
 
 
 ## **ex1.py**
@@ -35,7 +35,7 @@ In our case, for the 160x120 option, for example, we have obtained:
 ## **ex4.py**
 Finally, in this script we find a menu also with 2 options, which allows us to change the video audio from stereo to mono or change the audio codec to mp3: 
 
-<img src="https://drive.google.com/uc?export=view&id=1Ztn907F-P-QLIx77_IlKkRSm4iKog_XA" width="300">
+<img src="https://drive.google.com/uc?export=view&id=1Ztn907F-P-QLIx77_IlKkRSm4iKog_XA" width="500">
 
 The results obtained after performing both are as follows:
 

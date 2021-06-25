@@ -1,46 +1,44 @@
-### Información del repositorio
-En este repositorio encontramos la entrega del seminario 1 de la asignatura SCAV (parte de vídeo). 
+### Repository information
+In this repository we find the delivery of the seminar 2 of the Audio and Video Encoding Systems subject (video part). 
 
-Para poder utilizar este script necesitamos añadir dentro de la carpeta del proyecto el video "Big Buck Bunny" en formato mp4 y con el siguiente nombre: BBB.mp4. 
+In order to use this script we need to add inside the project folder the video "Big Buck Bunny" in mp4 format and with the following name: BBB.mp4. 
 
-Tenemos 5 archivos .py y en cada de uno de ellos encontramos una explicación detallada sobre cómo utilizarlos:
+We have 5 .py files and in each of them we find a detailed explanation on how to use them:
 
-##  **main.py**
-Este es el script base del proyecto. En él encontramos un menú que nos permite seleccionar qué transformación deseamos realizarle al vídeo. 
-Dado que el vídeo original es demasiado extenso y las operaciones tardarían demasiado, nada más ejecutar el script extraemos 10 segundos de este vídeo, con los que trabajaremos.
+## **main.py**
+This is the base script of the project. In it we find a menu that allows us to select what transformation we want to do to the video. 
+Since the original one is too long and the operations would take too long, just after running the script we extract 10 seconds of this video, with which we will work.
 
 <img src="https://drive.google.com/uc?export=view&id=1ltl0h7RTRVFn0AwSgNZF75YR6bDsbzP-" width="300">
 
 
-##  **ex1.py**
-A través de este script realizamos la operación mencionada anteriormente. Del vídeo original pasamos a uno de 10 segundos (recortamos desde el minuto 03:00 hasta el 03:10).
-A continuación podemos ver la información del vídeo original y del vídeo recortado:
+## **ex1.py**
+Through this script we perform the operation mentioned above. From the original video we switch to a 10-second video (we cut from minute 03:00 to 03:10).
+Below we can see the information of the original video and the trimmed video:
 
 <img src="https://drive.google.com/uc?export=view&id=1eBCvUoY6ZAPgw-PTqd-Yz6j_YlnTWTG9" width="300"> <img src="https://drive.google.com/uc?export=view&id=1KI86MR_ZY0lEW-W-rp-K-DVSV_K4hOcI" width="300">
 
-##  **ex2.py**
-Obtenemos el vídeo de 10 segundos con un histograma de formato yuv en tiempo real sobrepuesto. Podemos ver una imagen del resultado:
+## **ex2.py**
+We get the 10-second video with a real-time yuv format histogram superimposed. We can see an image of the result:
 
 <img src="https://drive.google.com/uc?export=view&id=1Eu_u01Tzf4UbhwK6pykEe7CNDaO9JTm6" width="500">
 
-##  **ex3.py**
-Al ejecutar este script se nos abre un menú con el que podemos elegir la resolución de salida del vídeo. El archivo de salida puede ser que no se corresponda con la resolución seleccionada ya que he priorizado conservar el aspecto, tomando como referencia la altura del vídeo. En caso de querer forzar la resolución de salida, una opción sería:
+## **ex3.py**
+Running this script opens a menu with which we can choose the output resolution of the video. The output file may not correspond to the selected resolution since I have prioritized to preserve the aspect ratio, taking as reference the height of the video. In case you want to force the output resolution, an option would be:
 
-`$ ffmpeg -i <input_file> -s 720x480 <output_file>`
+`$ ffmpeg -i <input_file> -s 720x480 <output_file>`.
 
-En nuestro caso, para la opción de 160x120, por ejemplo, hemos obtenido: 
+In our case, for the 160x120 option, for example, we have obtained: 
 
 <img src="https://drive.google.com/uc?export=view&id=1YIpqjLvgLu6CtihJ3ITkBOWO_QLZW5cW" width="500">
 
-##  **ex4.py**
-Finalmente, en este script encontramos un menú también con 2 opciones, que nos permite cambiar el audio del vídeo de estéreo a mono o cambiar el codec de audio a mp3: 
+## **ex4.py**
+Finally, in this script we find a menu also with 2 options, which allows us to change the video audio from stereo to mono or change the audio codec to mp3: 
 
 <img src="https://drive.google.com/uc?export=view&id=1Ztn907F-P-QLIx77_IlKkRSm4iKog_XA" width="300">
 
-Los resultados obtenidos tras realizar ambos son los siguientes:
+The results obtained after performing both are as follows:
 
 <img src="https://drive.google.com/uc?export=view&id=1jkX0bPJXtiyzQoz3Rj66pah-l6yBO60c" width="300"> <img src="https://drive.google.com/uc?export=view&id=1EYU_zEek_BNze-K5JNpvO7ztgl162_za" width="300">
 
-
-
-
+Translated with www.DeepL.com/Translator (free version)

@@ -40,5 +40,3 @@ Finally, in this script we find a menu also with 2 options, which allows us to c
 The results obtained after performing both are as follows:
 
 <img src="https://drive.google.com/uc?export=view&id=1jkX0bPJXtiyzQoz3Rj66pah-l6yBO60c" width="300"> <img src="https://drive.google.com/uc?export=view&id=1EYU_zEek_BNze-K5JNpvO7ztgl162_za" width="300">
-
-Translated with www.DeepL.com/Translator (free version)
